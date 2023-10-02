@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+section {
+  min-height: 100vh;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.home_section {
+  background-image: linear-gradient(
+      157deg,
+      rgba(29, 27, 27, 0.9) 15.1%,
+      rgba(0, 0, 0, 0) 31.43%
+    ),
+    linear-gradient(
+      19deg,
+      rgba(26, 26, 26, 0.98) 22.69%,
+      rgba(29, 27, 27, 0) 68.38%
+    ),
+    url(./public/images/hero.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  padding: 54px 164px;
+  gap: 2rem;
+}
+
+.nav {
+  list-style-type: none;
+  gap: 4rem;
+}
+.nav li a {
+  text-decoration: none;
+  color: #f8f8f9;
+  font-weight: 600;
+}
+
+.hero-section {
+  padding: 2em 10.25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  gap: 2em;
+}
+
+.hero-text {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  width: 90ch;
+  flex: start;
+}
+
+.hero-text h1 {
+  font-size: 77px;
+  margin-block: 0.5em;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 0.7em 3.5rem;
+  border-radius: 41.428px;
+  border: none;
+  background: linear-gradient(180deg, #130540 0%, #54428e 100%);
+  box-shadow: 0px 4.14283px 4.14283px 0px rgba(20, 89, 186, 0.25);
+  display: flex;
+  flex: start;
+  gap: 2rem;
+  color: #fffefe;
+  font-family: Mulish;
+  font-size: 24.857px;
+  font-weight: 700;
+  line-height: 130%; /* 32.314px */
+  margin-inline-end: 4rem;
+}
